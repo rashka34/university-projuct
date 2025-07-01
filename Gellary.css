@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ebe8e9;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #133546;
+    color: white;
+    padding: 10px 30px;
+}
+ul{
+    display: flex;
+    gap: 35px;
+    padding-top: 15px;
+    font-weight: 600px;
+}
+ul li{
+    list-style: none;
+    cursor: pointer;
+}
+ul li i{
+    font-size: 0.7em;
+}
+.info{
+    font-size: 0.6em;
+}
+#two{
+    padding-left: 50px;
+}
+#tel{
+    font-weight: bolder;
+    padding-left: 30px;
+}
+ul li:hover i{
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+.sub-menu{
+    display: none;
+}
+ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    color: #133546;
+    width: 120px;
+    top: 53px;
+    padding: 10px;
+    line-height: 30px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+.f-product{
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+}
+.far{
+    font-size: 4em;
+    color: rgb(202, 201, 201);
+    opacity: 0.2;
+}
+.far1{
+    position: absolute;
+    top: 60px;
+    left: 400px;
+    font-size:3em ;
+}
+.f-product p{
+    font-size: 1.3em;
+    padding-bottom: 10px;
+}
+.last1{
+    background-color: #133546;
+    width: 290px;
+    height: 400px;
+    position: relative;
+    color: #ffffff;
+    box-shadow: 0px 4px 15px black;
+}
+.last1 img{
+    width: 290px;
+}
+.last1 img:hover {
+    transform: scalex(-1);
+}
+.iccon1{
+    text-align: center;
+    color: white;
+}
+.last-one h1{
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 10px;
+}
+.part-sev{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}

@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ebe8e9;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #133546;
+    color: white;
+    padding: 10px 30px;
+}
+ul{
+    display: flex;
+    gap: 35px;
+    padding-top: 15px;
+    font-weight: 600px;
+}
+ul li{
+    list-style: none;
+    cursor: pointer;
+}
+ul li i{
+    font-size: 0.7em;
+}
+.info{
+    font-size: 0.6em;
+}
+#two{
+    padding-left: 50px;
+}
+#tel{
+    font-weight: bolder;
+    padding-left: 30px;
+}
+ul li:hover i{
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+.sub-menu{
+    display: none;
+}
+ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    color: #133546;
+    width: 120px;
+    top: 53px;
+    padding: 10px;
+    line-height: 30px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #248cc0;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-section {
+  display: grid;
+  gap: 2rem;
+  width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.blog-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  transition: none; /* No hover movement */
+}
+
+.blog-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.blog-content {
+  padding: 1.5rem;
+}
+
+.blog-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+  color: #222;
+}
+
+.blog-content p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.blog-content a {
+  color: #00897B;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blog-content a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  color: #777;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}

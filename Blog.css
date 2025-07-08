@@ -132,3 +132,12 @@ footer {
   font-size: 0.9rem;
   margin-top: 2rem;
 }
+@media(max-width: 428px){
+  ul{
+    display: none;
+  }
+  .blog-section{
+    width: 300px;
+  }
+
+}

@@ -114,3 +114,37 @@ li a{
     width: 250px;
     font-size: 1.em;
 }
+@media(max-width: 428px){
+    ul{
+        display: none;
+    }
+    .container-imgs{
+        display: block;
+    }
+    .sub-container{
+       width: 470px;
+       padding: 50px 0;
+       margin-bottom: 20px;
+       margin-left: 10px;
+    }
+    .sub-container img{
+        width: 190px;
+        margin-left: 20px;
+    }
+    .text{
+        font-size: 1em;
+        margin-top: 0;
+    }
+    .right-side{
+        padding: 50px 0;
+        width: 470px;
+        margin-left: 10px;       
+    }
+    .right-side img{
+        margin-left: 20px;
+
+    }
+    .right-down{
+        font-size: 1.2em;
+    }
+}

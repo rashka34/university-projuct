@@ -394,13 +394,17 @@ li a{
         display: flex;
         padding: 10px 10px;
     }
-    .header i{
+    #icon{
         font-size: 2em;
     }
     ul {
-       display: none;
+       display: block;
+       position: absolute;
+       left: 350px;
+       top: 45px;
+       background-color: gray;
+       box-shadow: 0 4px 15px black;
     }
-
     .hero h1 {
         font-size: 1.8em;
         /* padding-top: 50px; */

@@ -142,3 +142,19 @@ del{
     color: #cfcfcf;
     font-size: 0.8em;
 }
+@media (max-width: 428px){
+    .header, .product-container{
+        display: block;
+    }
+    .header{
+        display: flex;
+    }
+    ul{
+        display: none;
+    }
+    .product{
+        margin-top: 30px;
+        margin-left: 30px;
+
+    }
+}

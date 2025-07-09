@@ -400,8 +400,8 @@ li a{
     ul {
        display: block;
        position: absolute;
-       left: 350px;
-       top: 45px;
+       left: 345px;
+       top: 50px;
        background-color: gray;
        box-shadow: 0 4px 15px black;
     }

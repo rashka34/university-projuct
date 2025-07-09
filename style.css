@@ -400,15 +400,16 @@ li a{
     ul {
        display: block;
        position: absolute;
-       left: 345px;
-       top: 50px;
+       left: 313px;
+       top: 65px;
+       
        background-color: gray;
        box-shadow: 0 4px 15px black;
     }
     .hero h1 {
         font-size: 1.8em;
-        /* padding-top: 50px; */
-        align-items: center;
+        
+        margin-left: -100px;
     }
 
      .trend, .container4, .qoraal, .left-side, .part-five, .part-six, .one1 img, .container5 img, .image img {

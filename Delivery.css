@@ -122,10 +122,10 @@ li a{
         display: block;
     }
     .sub-container{
-       width: 470px;
+       width: 380px;
        padding: 50px 0;
        margin-bottom: 20px;
-       margin-left: 10px;
+       margin-left: 20px;
     }
     .sub-container img{
         width: 190px;
@@ -137,8 +137,9 @@ li a{
     }
     .right-side{
         padding: 50px 0;
-        width: 470px;
-        margin-left: 10px;       
+        width: 380px;
+        
+        margin-left: 20px;       
     }
     .right-side img{
         margin-left: 20px;

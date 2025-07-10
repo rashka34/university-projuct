@@ -28,7 +28,7 @@ ul li i{
     font-size: 0.6em;
 }
 #two{
-    padding-left: 50px;
+    padding-left: 140px;
 }
 #tel{
     font-weight: bolder;
@@ -51,6 +51,9 @@ ul li:hover .sub-menu{
 li a{
     color: white;
     text-decoration: none;
+}
+#icon{
+    display: none;
 }
 .hero{
     width: 100%;

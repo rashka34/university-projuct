@@ -399,6 +399,7 @@ li a{
     }
     #icon{
         font-size: 2em;
+        display: block;
     }
     ul {
        display: block;

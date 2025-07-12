@@ -379,7 +379,6 @@ li a{
 .guud-container{
     display: flex;
 }
-
 .image img{
     width: 400px;
     margin-top: 11px;
@@ -389,9 +388,7 @@ li a{
 
 @media (max-width: 428px) {
     .header, .footer, .guud-container, .container2, .guud{
-        display: block
-        
-        
+       display: block  
     }
     .header{
         display: flex;

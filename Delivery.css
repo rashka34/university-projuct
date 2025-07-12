@@ -122,29 +122,44 @@ li a{
         display: block;
     }
     .sub-container{
-       width: 380px;
-       padding: 50px 0;
+       width: 335px;
+       padding: 60px 0;
        margin-bottom: 20px;
        margin-left: 20px;
     }
     .sub-container img{
-        width: 190px;
+        width: 130px;
         margin-left: 20px;
     }
     .text{
         font-size: 1em;
         margin-top: 0;
+        margin-left: 20px;
+        box-shadow: 0px 4px 16px rgb(255, 0, 0);
+        width: 100px;
+        height: 70px;
+        padding: 0 10px;
+        background-color: rgb(26, 23, 86);
     }
     .right-side{
-        padding: 50px 0;
-        width: 380px;
-        
+        padding: 90px 0;
+        width: 335px;
         margin-left: 20px;       
     }
     .right-side img{
         margin-left: 20px;
+        width: 150px;
     }
     .right-down{
         font-size: 1.2em;
+        margin-left: 20px;
+        box-shadow: 0px 4px 16px rgb(255, 0, 0);
+        width: 100px;
+        height: 60px;
+        padding: 0 10px;
+        background-color: rgb(18, 13, 112);
+    }
+    .news{
+        margin-left: -80px;
     }
 }

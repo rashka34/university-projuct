@@ -12,6 +12,9 @@ body{
     color: white;
     padding: 10px 30px;
 }
+.header ul li:hover {
+    background-color: red;
+}
 ul{
     display: flex;
     gap: 35px;
@@ -20,7 +23,7 @@ ul{
 
 ul li{
     list-style: none;
-    cursor: pointer;
+    
 }
 ul li i{
     font-size: 0.7em;
@@ -71,7 +74,13 @@ li a{
     padding-top: 50px;
     height:80vh;
 }
-
+.box{
+    width: 350px;
+    background-color: #082534;
+    height: 400px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
 .box h1{
     position: absolute;
     top: 60px;
@@ -380,6 +389,7 @@ li a{
         display: flex;
         padding: 10px 10px;
     }
+
     #icon{
         font-size: 2em;
         display: block;

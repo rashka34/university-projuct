@@ -108,7 +108,7 @@ li a{
     right: 10px;
 }
 .product img:hover{
-    transform: scalex(-1);
+    transform: scalex(1);
 }
 .time{
     background-color: #133546;
